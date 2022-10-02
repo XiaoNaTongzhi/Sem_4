@@ -1,22 +1,18 @@
 ﻿
-// // Задача 25: Напишите цикл, который принимает на вход два числа (A и B) 
-// // и возводит число A в натуральную степень B.
+// Задача 25: Напишите 【ЦИКЛ】, который принимает на вход два числа (A и B) 
+// и возводит число A в натуральную степень B.
 
 // Console.Write($"Введи число: ");
 // double a = double.Parse(Console.ReadLine()!);
 // Console.Write($"В какую степень возвести: ");
 // int b = int.Parse(Console.ReadLine()!);
 
-// double res = GetPow(a, b);
-// Console.WriteLine ($"Ответ: {res}");
-
-// double GetPow(double num, int pow)
+// double res = 1;
+// for (int count = 0; count < b; count++)
 // {
-//     double result = Math.Pow(num, pow);
-//     return result;
+// res = res * a;
 // }
-
-
+// Console.WriteLine ($"Ответ: {res}");
 
 
 
